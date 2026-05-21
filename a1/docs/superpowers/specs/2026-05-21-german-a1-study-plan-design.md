@@ -25,38 +25,27 @@ A structured, checkbox-tracked German A1 study plan inspired by [coding-intervie
 
 ```
 meine-deutschlernreise/
-├── README.md                        # Main study plan with checkboxes
+├── README.md                        # Repo index and level navigation
 ├── AGENTS.md                        # Template for generating A2, B1, etc.
-├── resources/
-│   ├── free-a1-resources-guide.md   # Detailed resource descriptions
-│   └── visual-fun-content-a1.md     # YouTube, shows, comics, games
-├── docs/
-│   └── superpowers/specs/           # Design documents
 ├── a1/
+│   ├── README.md                    # A1 master study plan with checkboxes
 │   ├── 00-getting-started.md        # Setup, tools, mindset
-│   ├── 01-week-01-02.md             # Alphabet, sounds, first words
-│   ├── 02-week-03-04.md             # Greetings, introductions, numbers
-│   ├── 03-week-05-06.md             # Family, friends, present tense
-│   ├── 04-week-07-08.md             # Daily life, time, separable verbs
-│   ├── 05-week-09-10.md             # Food, shopping, accusative case
-│   ├── 06-week-11-12.md             # Review & Plattform 1-2
-│   ├── 07-week-13-14.md             # City, directions, dative case
-│   ├── 08-week-15-16.md             # Appointments, modal verbs
-│   ├── 09-week-17-18.md             # Work, professions, prepositions
-│   ├── 10-week-19-20.md             # Health, body, imperative
-│   ├── 11-week-21-22.md             # Home, moving, Perfekt
-│   └── 12-week-23-24.md             # Full review & exam prep
+│   ├── resources/
+│   │   ├── free-a1-resources-guide.md
+│   │   └── visual-fun-content-a1.md
+│   └── docs/
+│       └── superpowers/specs/       # A1 design documents
 └── .agents/
     └── skills/
 ```
 
 ---
 
-## README.md Design
+## a1/README.md Design
 
 ### Structure
 
-The README serves as the master study plan. It follows the coding-interview-university format:
+The `a1/README.md` file serves as the master A1 study plan. It follows the coding-interview-university format:
 
 1. **Header** — Title, description, motivation, how to use (fork + check boxes)
 2. **Prerequisites & Setup** — Tools to install, accounts to create, mindset tips
@@ -184,7 +173,7 @@ using the same methodology as the A1 plan in this repository.
 4. Select fun/immersion content at the right difficulty
 5. Write weekly self-checks based on CEFR can-do statements
 6. Include exam prep in final 4 weeks
-7. Output in the same format as README.md
+7. Output in the same format as `a1/README.md`
 
 ## Textbook Recommendations by Level
 - A1: Netzwerk Neu A1 (12 chapters)

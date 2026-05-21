@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Generate a checkbox-tracked, multi-stream German study plan for a given CEFR level. The output should match the format and quality of the A1 `README.md` in this repository.
+Generate a checkbox-tracked, multi-stream German study plan for a given CEFR level. The output should match the format and quality of the A1 `a1/README.md` in this repository.
 
 ---
 
@@ -16,6 +16,7 @@ Generate a checkbox-tracked, multi-stream German study plan for a given CEFR lev
 | Variable | Description | Example |
 |----------|-------------|---------|
 | `{{LEVEL}}` | Target CEFR level | A2, B1, B2, C1, C2 |
+| `{{LEVEL_FOLDER}}` | Folder for this level | a2, b1, b2, c1, c2 |
 | `{{TEXTBOOK}}` | Primary textbook for this level | Netzwerk Neu A2 |
 | `{{DURATION_WEEKS}}` | Total timeline in weeks | 24 |
 | `{{HOURS_PER_DAY}}` | Daily time commitment | 1-2 |
@@ -165,7 +166,10 @@ When generating a plan for a new level, follow these steps:
 - Place exam prep in the final 4 weeks
 
 ### Step 6: Output
-- Write in the same markdown format as README.md
+- Write the main plan to `{{LEVEL_FOLDER}}/README.md`
+- Store level-specific research and guides under `{{LEVEL_FOLDER}}/resources/`
+- Store level-specific specs and notes under `{{LEVEL_FOLDER}}/docs/`
+- Use the same markdown format as `a1/README.md`
 - Include all sections: header, setup, daily routine, streams, weekly blocks, resources, principles
 - Add level-specific tips and mindset notes
 
@@ -231,6 +235,7 @@ When generating a plan for a new level, follow these steps:
 Before finalizing any generated plan, verify:
 
 - [ ] All 7 resource categories are present
+- [ ] The level lives in its own folder with `README.md`, `resources/`, and `docs/`
 - [ ] All links are to free resources (or clearly marked free tier)
 - [ ] Weekly blocks have specific, actionable checkboxes (not vague instructions)
 - [ ] Self-checks use measurable can-do statements

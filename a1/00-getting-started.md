@@ -107,6 +107,6 @@ If you want to confirm you're starting at the right level:
 
 ## Ready?
 
-Once everything above is checked off, proceed to the [main study plan](../README.md) and start **Week 1-2**.
+Once everything above is checked off, proceed to the [main A1 study plan](README.md) and start **Week 1-2**.
 
 *Viel Erfolg!* 🚀
